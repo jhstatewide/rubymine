@@ -12,7 +12,7 @@ RubyMine
 Synopsis
 --------
 
-RubyMine is a plugin for [hey0's mod](http://forums.hey0.net) for [Minecraft](http://minecraft.net).
+RubyMine is a plugin for [hey0's mod](http://forum.hey0.net) for [Minecraft](http://minecraft.net).
 This plugin allows you to create other plugins with [JRuby](http://jruby.org).
 
 Ruby is an object oriented scripting language and I find it much more interesting than
