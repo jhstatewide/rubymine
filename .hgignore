@@ -1,0 +1,6 @@
+syntax: glob
+
+hey0
+dist
+nbproject/private
+build
