@@ -23,6 +23,7 @@ Installation
 * Copy lib/jruby.jar and the dist/RubyMine.jar.
 * In your plugins directory, create a ruby directory.
 * Place init.rb and any other wanted ruby plugins into the plugins/ruby directory.
+* Add RubyMine to your plugins line in server.properties
 * Launch your hey0 mod equipped Minecraft server and enjoy the Ruby goodness.
 
 Project Status
