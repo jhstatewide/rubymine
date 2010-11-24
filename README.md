@@ -28,9 +28,9 @@ Installation
 Project Status
 --------------
 Currently the plugin provides 3 globals to the integrated JRuby interpreter.
-* $LOGGER
-* $SERVER
-* $ETC
+$LOGGER
+$SERVER
+$ETC
 
 All of the API exposed through hey0 should now be accessible through the Ruby
 interpreter.
