@@ -6,19 +6,11 @@ import java.io.IOException;
 import java.nio.MappedByteBuffer;
 import java.nio.channels.FileChannel;
 import java.nio.charset.Charset;
-import java.util.ArrayList;
 import java.util.logging.Level;
 import java.util.logging.Logger;
-import org.jruby.Ruby;
-import org.jruby.RubyRuntimeAdapter;
 import org.jruby.embed.LocalVariableBehavior;
 import org.jruby.embed.ScriptingContainer;
-import org.jruby.javasupport.JavaEmbedUtils;
 
-/*
- * To change this template, choose Tools | Templates
- * and open the template in the editor.
- */
 /**
  *
  * @author josh
@@ -59,6 +51,7 @@ public class RubyMine extends Plugin {
             rubyContainer.put("$LOGGER", log);
             rubyContainer.put("$SERVER", etc.getServer());
             rubyContainer.put("$ETC", etc.getInstance());
+            rubyContainer.put("$SCRIPTDIR", rubyDir);
             rubyContainer.runScriptlet(new FileReader(initFile), "init.rb");
         } catch (IOException ex) {
             Logger.getLogger(RubyMine.class.getName()).log(Level.SEVERE, null, ex);

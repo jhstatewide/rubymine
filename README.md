@@ -18,9 +18,31 @@ This plugin allows you to create other plugins with [JRuby](http://jruby.org).
 Ruby is an object oriented scripting language and I find it much more interesting than
 Java.
 
+Installation
+------------
+* Copy lib/jruby.jar and the dist/RubyMine.jar.
+* In your plugins directory, create a ruby directory.
+* Place init.rb and any other wanted ruby plugins into the plugins/ruby directory.
+* Launch your hey0 mod equipped Minecraft server and enjoy the Ruby goodness.
+
 Project Status
 --------------
-Currently the plugin provides 3 globals to the integrated JRuby Interpreter.
+Currently the plugin provides 3 globals to the integrated JRuby interpreter.
 * $LOGGER
 * $SERVER
 * $ETC
+
+All of the API exposed through hey0 should now be accessible through the Ruby
+interpreter.
+
+Example Ruby Plugins
+--------------------
+There is a time announcer in example_plugins.
+Every 60 seconds, this plugin announces the time to your players.
+Not useful, but a proof of concept.
+
+TODO
+----
+* More documentation.
+* More example plugins.
+* Support for loading rubygems.
