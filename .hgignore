@@ -1,6 +1,7 @@
 syntax: glob
 
 hey0
+.git
 dist
 nbproject/private
 build

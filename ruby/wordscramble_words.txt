@@ -1,0 +1,16 @@
+coal
+gold
+redstone
+minecraft
+skeleton
+blocks
+pick
+iron ore
+notch
+cave
+creeper
+diamond
+ore
+torch
+glass
+lava
